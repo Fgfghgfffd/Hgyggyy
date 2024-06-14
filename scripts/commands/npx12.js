@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/xHJ76aT.mp4',
+      'https://i.imgur.com/uXEkC17.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("joyer gf")==0 || body.indexOf("Joyer gf")==0 || body.indexOf("boter bow")==0 || body.indexOf("bot er jamai")==0 || body.indexOf("Efar bf")==0 || body.indexOf("Joy vai")==0 || body.indexOf("Bot kar")==0 || body.indexOf("Admin")==0) {
+	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("kemon")==0 || body.indexOf("kmn")==0 || body.indexOf("ki")==0 || body.indexOf("meye")==0 || body.indexOf("chele")==0 || body.indexOf("vule")==0 || body.indexOf("Admin")==0) {
 		var msg = {
 				body: "𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐌𝐄𝐃 𝐉𝐎𝐘",
 				attachment: media
