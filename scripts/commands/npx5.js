@@ -19,14 +19,14 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/xTFUVAd.mp4',
+      'https://i.imgur.com/yF4zBaY.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("bot dance koro")==0 || body.indexOf("dance")==0 || body.indexOf("/dance")==0 || body.indexOf("dance")==0 || body.indexOf("dance kori")==0 || body.indexOf("dance")==0 || body.indexOf("nach")==0 || body.indexOf("dance kor")==0 || body.indexOf("nach kor")==0 || body.indexOf("ay dance kori")==0) {
+	if (body.indexOf("baby")==0 || body.indexOf("jan")==0 || body.indexOf("suna")==0 || body.indexOf("kolixa")==0 || body.indexOf("kolija")==0 || body.indexOf("kolixa")==0 || body.indexOf("jai")==0 || body.indexOf("aktu")==0 || body.indexOf("drans")==0 || body.indexOf(" kori")==0) {
 		var msg = {
-				body: "𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "🥱💥FARABI💥🥱",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
