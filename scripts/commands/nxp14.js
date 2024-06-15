@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("bidesh")==0 || body.indexOf("বিদেশ")==0 || body.indexOf("প্রবাস")==0 || body.indexOf("প্রবাসী")==0 || body.indexOf("probas")==0 || body.indexOf("probasi")==0 || body.indexOf("🐸")==0 || body.indexOf("bye")==0 || body.indexOf("allah")==0 || body.indexOf("take")==0) {
+	if (body.indexOf("bidesh")==0 || body.indexOf("বিদেশ")==0 || body.indexOf("প্রবাস")==0 || body.indexOf("প্রবাসী")==0 || body.indexOf("probas")==0 || body.indexOf("probasi")==0 || body.indexOf("😬")==0 || body.indexOf("bye")==0 || body.indexOf("allah")==0 || body.indexOf("take")==0) {
 		var msg = {
 				body: "❤️‍🔥 Farabi💥❤️‍🔥",
 				attachment: media
