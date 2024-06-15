@@ -6,15 +6,15 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "JOY-BOT",
+  "BOTNAME": "ফারাবী-ভাই",
   "PREFIX": "/",
   "OPERATOR": [
     "100065050393649",
-    "100092456114947"
+    "61558828860268"
   ],
   "ADMINBOT": [
     "100065050393649",
-    "100092456114947"
+    "61558828860268"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
