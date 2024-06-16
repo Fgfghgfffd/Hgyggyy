@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("maya")==0 || body.indexOf("maiya")==0 || body.indexOf("maya")==0 || body.indexOf("মায়া")==0 || body.indexOf("Maya")==0 || body.indexOf("Maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0) {
+	if (body.indexOf("maya")==0 || body.indexOf("maiya")==0 || body.indexOf("😭")==0 || body.indexOf("মায়া")==0 || body.indexOf("😭")==0 || body.indexOf("Maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0) {
 		var msg = {
 				body: "❤️‍🔥 Farabi💥❤️‍🔥",
 				attachment: media
