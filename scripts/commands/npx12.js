@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("kemon")==0 || body.indexOf("kmn")==0 || body.indexOf("ki")==0 || body.indexOf("meye")==0 || body.indexOf("chele")==0 || body.indexOf("vule")==0 || body.indexOf("Admin")==0) {
+	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("Admin")==0) {
 		var msg = {
 				body: "FARABI",
 				attachment: media
