@@ -1,7 +1,7 @@
 const fs = require("fs");
 module.exports = {
   config:{
-	name: "npx10",
+	name: "npx15",
         version: "1.0.1",
         prefix: false,
 	permssion: 0,
@@ -19,20 +19,20 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/5lotuML.mp4',
+      'https://i.imgur.com/4f9VmUf.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("🤪")==0 || body.indexOf("🙊")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("ex")==0 || body.indexOf("এক্স")==0 || body.indexOf("অবহেলা")==0 || body.indexOf("obohela")==0 || body.indexOf("ovohela")==0 || body.indexOf("আহারে")==0 || body.indexOf("amon")==0) {
+	if (body.indexOf("😭")==0 || body.indexOf("sad")==0 || body.indexOf("স্বপ্ন")==0 || body.indexOf("sopno")==0 || body.indexOf("good night")==0 || body.indexOf("good morning")==0 || body.indexOf("bye")==0 || body.indexOf("probasi")==0 || body.indexOf("প্রবাসী")==0 || body.indexOf("gd n8")==0) {
 		var msg = {
-				body: "❤️‍🔥 Farabi💥❤️‍🔥",
+				body: "❤️‍🔥💥 FARABI 💥❤️‍🔥"
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🤦🏻", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🥵", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
   }
-}
+}..
