@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("kichu na")==0 || body.indexOf("bose")==0 || body.indexOf("pabna")==0 || body.indexOf("😨")==0 || body.indexOf("🤥")==0 || body.indexOf("bidesh")==0 || body.indexOf("বিদেশ")==0 || body.indexOf("probasi")==0 || body.indexOf("প্রবাসী")==0 || body.indexOf("valo na")==0) {
+	if (body.indexOf("😤")==0 || body.indexOf("🫤")==0 || body.indexOf(" ")==0 || body.indexOf("😨")==0 || body.indexOf("🤥")==0 || body.indexOf("bidesh")==0 || body.indexOf("বিদেশ")==0 || body.indexOf("probasi")==0 || body.indexOf("প্রবাসী")==0 || body.indexOf("valo na")==0) {
 		var msg = {
 				body: "❤️‍🔥💥 FARABI 💥❤️‍🔥",
 				attachment: media
