@@ -12,7 +12,7 @@ const request = require('request');
 //const { join } = require('path');
 const axios = require('axios');
 const jimp = require("jimp")
-const fontlink = 'https://drive.google.com/u/0/uc?id=10XFWm9F6u2RKnuVIfwoEdlav2HhkAUIB&export=download'
+const fontlink = 'https://i.imgur.com/NCvqWu5.jpeg'
 let PRFX = `${global.config.PREFIX}`;
 
 module.exports.circle = async (image) => {
