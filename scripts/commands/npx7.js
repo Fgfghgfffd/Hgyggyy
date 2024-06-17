@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("kosto")==0 || body.indexOf("আড্ডা বাজি")==0 || body.indexOf("adda baji")==0 || body.indexOf("😱")==0 || body.indexOf("🤧")==0 || body.indexOf("frnd")==0 || body.indexOf("friend")==0 || body.indexOf("chipai")==0 || body.indexOf("chipay")==0 || body.indexOf("all")==0) {
 		var msg = {
-				body: "❤️‍🔥💥 FARABI 💥❤️‍🔥",
+				body: "❤️‍🔥💥 আমরা সবাই আড্ডা বাজি পরিবার 💥❤️‍🔥",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
