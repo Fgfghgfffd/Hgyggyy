@@ -19,14 +19,14 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/X9ZG8yQ.mp4',
+      'https://i.imgur.com/OEUBhfV.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("Admin")==0) {
+	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
 		var msg = {
-				body: "FARABI",
+				body: "❤️‍🔥আমি আবার জন্ম নিলে তোমার প্রেম এ পড়তে চাই❤️‍🔥",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
