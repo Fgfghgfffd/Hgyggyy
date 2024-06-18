@@ -39,9 +39,9 @@ const fs = global.nodemodule["fs-extra"];
   var link = [
   "https://i.imgur.com/6i0TxSX.mp4",
   "https://i.imgur.com/pXDmK05.mp4",
-"https://i.postimg.cc/Y0wvTzr6/images-29.jpg",
-"https://i.postimg.cc/1Rpnw2BJ/images-28.jpg",
-"https://i.postimg.cc/mgrPxDs5/images-27.jpg",
+"https://i.imgur.com/lqDfc8A.mp4",
+"https://i.imgur.com/U0Xzgaw.mp4",
+"https://i.imgur.com/U0Xzgaw.mp4",
 "https://i.postimg.cc/yxXDK3xw/images-26.jpg",
 "https://i.postimg.cc/kXqVcsh9/muslim-boy-having-worship-praying-fasting-eid-islamic-culture-mosque-73899-1334.webp",
 "https://i.postimg.cc/hGzhj5h8/muslims-reading-from-quran-53876-20958.webp",
