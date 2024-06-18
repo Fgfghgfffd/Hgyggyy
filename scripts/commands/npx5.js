@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("baby")==0 || body.indexOf("jan")==0 || body.indexOf("suna")==0 || body.indexOf("kolixa")==0 || body.indexOf("kolija")==0 || body.indexOf("kolixa")==0 || body.indexOf("jai")==0 || body.indexOf("aktu")==0 || body.indexOf("drans")==0 || body.indexOf(" kori")==0) {
+	if (body.indexOf("baby")==0 || body.indexOf("jan")==0 || body.indexOf("suna")==0 || body.indexOf("🧐")==0 || body.indexOf("kolija")==0 || body.indexOf("kolixa")==0 || body.indexOf("jai")==0 || body.indexOf("aktu")==0 || body.indexOf("drans")==0 || body.indexOf("😁")==0) {
 		var msg = {
 				body: "🥱💥FARABI💥🥱",
 				attachment: media
