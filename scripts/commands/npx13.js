@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/rcFTri8.mp4',
+      'https://i.imgur.com/4WqrGil.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("oi")==0 || body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("😲")==0 || body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("😈")==0 || body.indexOf("🤘")==0) {
+	if (body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("oi")==0 || body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("😲")==0 || body.indexOf("😜")==0 || body.indexOf("😋")==0 || body.indexOf("😈")==0 || body.indexOf("🤘")==0) {
 		var msg = {
 				body: "❤️‍🔥💥 Farabi 💥❤️‍🔥",
 				attachment: media
