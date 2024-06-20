@@ -5,7 +5,7 @@ module.exports.config = {
   prefix: false,
   credits: "Nayan",
   description: "talk with bot",
-  category: "user",
+  category: "farabi",
   usages: "",
     cooldowns: 5,
 };
