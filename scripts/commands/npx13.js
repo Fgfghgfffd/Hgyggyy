@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("oi")==0 || body.indexOf("🥱")==0 || body.indexOf("🥱")==0 || body.indexOf("😲")==0 || body.indexOf("😜")==0 || body.indexOf("😋")==0 || body.indexOf("😈")==0 || body.indexOf("🤘")==0) {
 		var msg = {
-				body: "❤️‍🔥💥 Farabi 💥❤️‍🔥",
+				body: "🍁প্রিয় মানুষ কে ছাড়া বুঝা নাই প্রতিটা নিশ্বাস কত দামী🍁",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
