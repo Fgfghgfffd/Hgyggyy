@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/pLI98SV.mp4',
+      'https://i.imgur.com/RUpDZv8.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("baby")==0 || body.indexOf("jan")==0 || body.indexOf("suna")==0 || body.indexOf("🧐")==0 || body.indexOf("kolija")==0 || body.indexOf("kolixa")==0 || body.indexOf("jai")==0 || body.indexOf("aktu")==0 || body.indexOf("drans")==0 || body.indexOf("😁")==0) {
+	if (body.indexOf("baby")==0 || body.indexOf("koliza")==0 || body.indexOf("suna")==0 || body.indexOf("🧐")==0 || body.indexOf("kolija")==0 || body.indexOf("kolixa")==0 || body.indexOf("jai")==0 || body.indexOf("aktu")==0 || body.indexOf("drans")==0 || body.indexOf("😁")==0) {
 		var msg = {
 				body: "💥কত দিন হলো তোমার সাথে কথা হয়না💥",
 				attachment: media
