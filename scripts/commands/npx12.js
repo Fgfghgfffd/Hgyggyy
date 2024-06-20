@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
 		var msg = {
-				body: "❤️‍🔥আমি আবার জন্ম নিলে তোমার প্রেম এ পড়তে চাই❤️‍🔥",
+				body: "🍁মানুষ কখনো কাউকে ভুলে না ।হয়তো দুরত্ব বারে গুরুত্ব কমে🍁",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
