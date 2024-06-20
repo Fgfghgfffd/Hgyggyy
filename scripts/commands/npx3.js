@@ -17,7 +17,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
   const axios = require('axios')
-  const NAYAN = ['https://i.imgur.com/W9SRfDD.mp4']
+  const NAYAN = ['https://i.imgur.com/EXMUcbF.mp4']
     var rndm = NAYAN[Math.floor(Math.random() * NAYAN.length)];
 const media = (
     await axios.get(
@@ -28,7 +28,7 @@ const media = (
 
 	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("valo")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "🖤🥀",
+				body: "🍁তোমাকে না হয় হেসে হেসে মুক্তি দিবো🍁",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
