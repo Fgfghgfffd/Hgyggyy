@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/zBIHf7f.mp4',
+      'https://i.imgur.com/CnJEHXS.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
+	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("গ্রুপ")==0 || body.indexOf("group")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
 		var msg = {
 				body: "🍁মানুষ কখনো কাউকে ভুলে না ।হয়তো দুরত্ব বারে গুরুত্ব কমে🍁",
 				attachment: media
